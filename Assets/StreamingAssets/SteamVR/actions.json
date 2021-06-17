@@ -1,0 +1,82 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/TriggerValue",
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/default/in/TriggerTouch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/PrimaryButton",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/PrimaryTouch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/SecondaryButton",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/SecondaryTouch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/GripValue",
+      "type": "vector1"
+    },
+    {
+      "name": "/actions/default/in/JoystickValue",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/default/in/JoystickClick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/JoystickTouch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/GripTouch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TriggerClick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/GripClick",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/Pose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/default/out/Haptic",
+      "type": "vibration"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "single"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "oculus_touch",
+      "binding_url": "application_generated_unity_BardoVR_exe_binding_oculus_touch.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "/actions/default/out/Haptic": "Haptic"
+    }
+  ]
+}

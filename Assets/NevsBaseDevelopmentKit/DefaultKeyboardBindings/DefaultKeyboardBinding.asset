@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fda80e7fc7c198419725ce43007659d, type: 3}
+  m_Name: DefaultKeyboardBinding
+  m_EditorClassIdentifier: 
+  trigger: 323
+  grip: 324
+  primary: 113
+  secondary: 101
+  joystick_click: 102
+  joystick_up: 119
+  joystick_left: 97
+  joystick_down: 115
+  joystick_right: 100
+  openMenu: 27
+  toggle_HMD: 32
+  toggle_active_controller: 9
+  trigger_touch: 49
+  grip_touch: 50
+  primary_touch: 51
+  secondary_touch: 52
+  joystick_touch: 53

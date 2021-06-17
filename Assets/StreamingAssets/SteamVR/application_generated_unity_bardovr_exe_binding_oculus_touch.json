@@ -1,0 +1,200 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "application.generated.unity.bardovr.exe",
+   "bindings" : {
+      "/actions/default" : {
+         "chords" : [],
+         "haptics" : [
+            {
+               "output" : "/actions/default/out/haptic",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/default/out/haptic",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
+         "poses" : [
+            {
+               "output" : "/actions/default/in/pose",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/default/in/pose",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/triggerclick"
+                  },
+                  "pull" : {
+                     "output" : "/actions/default/in/triggervalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/triggertouch"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/joystickclick"
+                  },
+                  "position" : {
+                     "output" : "/actions/default/in/joystickvalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/joysticktouch"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/left/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/gripclick"
+                  },
+                  "pull" : {
+                     "output" : "/actions/default/in/gripvalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/griptouch"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/primarybutton"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/primarytouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/x"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/secondarybutton"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/secondarytouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/gripclick"
+                  },
+                  "pull" : {
+                     "output" : "/actions/default/in/gripvalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/griptouch"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/joystickclick"
+                  },
+                  "position" : {
+                     "output" : "/actions/default/in/joystickvalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/joysticktouch"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/triggerclick"
+                  },
+                  "pull" : {
+                     "output" : "/actions/default/in/triggervalue"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/triggertouch"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/primarybutton"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/primarytouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/x"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/secondarybutton"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/secondarytouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/primarybutton"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/primarytouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/secondarybutton"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/secondarytouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/b"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "oculus_touch",
+   "description" : "This is the default mapping for SteamVR to Unity XR Interaction with the Oculus Touch Controllers",
+   "name" : "BardoVR Controllers for Oculus Touch",
+   "options" : {},
+   "simulated_actions" : []
+}
